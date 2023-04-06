@@ -1,0 +1,16 @@
+[B]Version 1.0.0[/B]
+- Initial Release
+
+[B]Version 1.0.1[/B]
+- Refresh Update
+
+[B]Version 1.0.2[/B]
+- Refresh Update
+
+[B]Version 5.2020[/B]
+- Refresh Update
+
+[B]Version 5.2020.1[/B]
+- vStream Eklentisi Eklendi. - 70'den fazla yeni kaynak ve arama modülü
+- Youtube, Youtube Muzik ve Spotify Eklendi.
+- Menü düzeltmeleri yapildi

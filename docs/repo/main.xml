@@ -1,0 +1,127 @@
+<plugin>
+<name>[COLOR red][B]Telegram Grubumuz:[/COLOR] @kodentv[/B]</name>
+<link>plugin://plugin.program.chrome.launcher/?url=http%3A%2F%2Ft.me%2Fkodentv&amp;mode=showSite&amp;stopPlayback=no&amp;kiosk=yes</link>
+</plugin>
+
+<dir>
+<title>[B]Bizi Takip Etmeyin Unutmayin !!![/B]</title>
+</dir>
+
+<plugin>
+<name>[B]Son Guncelleme:[/B] 03.05.2020</name>
+<link>plugin://plugin.program.chrome.launcher/?url=https%3A%2F%2Flnkload.com%2F2oSbm&amp;mode=showSite&amp;stopPlayback=no&amp;kiosk=yes</link>
+</plugin>
+
+<item>    
+<title>[COLOR gold]Asagidaki Baglantilarin Acilmasi Zaman Alabilir[/COLOR]</title>
+</item>
+
+<dir>
+<title>[COLOR orangered](TURKEY)[/COLOR][COLOR gold]***[/COLOR]PAMPA TV[COLOR gold]***[/COLOR]</title>
+<thumbnail>https://ubden.github.io/kodentv/media/pampa.png</thumbnail>
+<m3u>https://raw.githubusercontent.com/guluguli2/asas/master/aasdd/6gja/Ja/555/jdjdhkllmjkns.m3u</m3u>
+<info>Surekli Gunceller</info>
+<fanart></fanart>
+</dir>
+
+<dir>
+<title>[COLOR orangered](TURKEY)[/COLOR][COLOR gold]***[/COLOR]CUPPA TV[COLOR gold]*SPOR*[/COLOR]</title>
+<thumbnail>https://ubden.github.io/kodentv/media/cubba.png</thumbnail>
+<m3u>https://raw.githubusercontent.com/ubden/kodentv/master/docs/repo/linked/cubba.m3u</m3u>
+</dir>
+
+<dir>
+<title>[COLOR orangered](TURKEY)[/COLOR][COLOR gold]***[/COLOR]HOBBALA TV[COLOR gold]****[/COLOR]</title>
+<thumbnail>https://ubden.github.io/kodentv/media/hobbala.png</thumbnail>
+<m3u>https://raw.githubusercontent.com/dzajkowski-dexter/OmerKujrakovic/master/Ex%20Yu%20Omer%20Zejnic.m3u</m3u>
+</dir>
+
+<dir>
+<title>[COLOR orangered](TURKEY)[/COLOR][COLOR gold]***[/COLOR]HAYDAA TV[COLOR gold]****[/COLOR]</title>
+<thumbnail>https://ubden.github.io/kodentv/media/haydaa.png</thumbnail>
+<m3u>https://raw.githubusercontent.com/dzajkowski-dexter/BernardSladoja/master/Ex%20Yu%20fzxBTSabk8_plus.m3u</m3u>
+</dir>
+
+<dir>
+<title>[COLOR orangered](TURKEY)[/COLOR][COLOR gold]***[/COLOR]ALTERNATIF TV[COLOR gold]****[/COLOR]</title>
+<m3u>https://raw.githubusercontent.com/majucomp/list/master/list1.m3u</m3u>
+</dir>
+
+<dir>
+<title>[COLOR orangered](TURKEY)[/COLOR][COLOR gold]***[/COLOR]NORMAL TV[COLOR gold]****[/COLOR]</title>
+<m3u>https://raw.githubusercontent.com/iptv-org/iptv/master/channels/tr.m3u</m3u>
+</dir>
+
+<dir>
+<title>[COLOR teal](ALMANYA)[/COLOR][COLOR gold]***[/COLOR]NORMAL TV[COLOR gold]****[/COLOR]</title>
+<m3u>https://raw.githubusercontent.com/iptv-org/iptv/master/channels/de.m3u</m3u>
+</dir>
+
+<dir>
+<title>[COLOR khaki](ARABIC)[/COLOR][COLOR gold]***[/COLOR]NORMAL TV[COLOR gold]****[/COLOR]</title>
+<m3u>https://raw.githubusercontent.com/iptv-org/iptv/master/channels/bh.m3u</m3u>
+</dir>
+
+<dir>
+<title>[COLOR bisque](AZERI)[/COLOR][COLOR gold]***[/COLOR]NORMAL TV[COLOR gold]****[/COLOR]</title>
+<m3u>https://raw.githubusercontent.com/iptv-org/iptv/master/channels/az.m3u</m3u>
+</dir>
+
+<dir>
+<title>[COLOR aqua](UK)[/COLOR][COLOR gold]***[/COLOR]NORMAL TV[COLOR gold]****[/COLOR]</title>
+<m3u>https://raw.githubusercontent.com/iptv-org/iptv/master/channels/uk.m3u</m3u>
+</dir>
+
+
+<item>    
+<title>=======================================</title>
+</item>
+
+
+<dir>
+<title>***World TV***</title>
+<link>http://iptv-org.github.io/iptv/index.m3u</link>
+</dir>
+
+<plugin>
+<name>***FreeView TV***</name>
+<link>https://freeview.github.io/iptv/playlist/tv.m3u</link>
+</plugin>
+  
+<item>    
+<title>========================================</title>
+</item>
+
+<dir>
+<title>[B]***TurkVod***[/B]</title>
+<link>plugin://plugin.video.turkvod/</link>
+</dir>
+
+<dir>
+<title>[B]***SeyirTurk***[/B]</title>
+<link>plugin://plugin.video.seyirturk/</link>
+</dir>
+
+<dir>
+<title>[B]***El.Bitirim.Turko***[/B]</title>
+<link>plugin://plugin.video.El.bitirim.Turko.Tv/</link>
+</dir>
+
+<item>
+<title>[COLOR gold]==================[/COLOR]</title>
+</item>
+
+<dir>
+<name>Youtube Arama</name>
+<link>plugin://plugin.video.youtube/</link>
+</dir>
+
+<plugin>
+<name>Arac, Ayarlar, Temizlik</name>
+<link>plugin://plugin.video.kodeniptv/?action=openSettings</link>
+<fanart></fanart>
+</plugin>
+
+<item>
+<title>[COLOR gold]================[/COLOR]</title>
+</item>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kodeniptv" name="[B][COLOR yellow]Koden [/COLOR][COLOR silver]iPTV TR[/COLOR][/B]" version="5.2020.2" provider-name="kodentv">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <import addon="script.module.dateutil" />
+        <import addon="script.module.feedparser" />
+        <import addon="plugin.video.youtube" />	
+        <import addon="script.module.resolveurl" />		
+        <import addon="plugin.video.f4mTester" />
+        <import addon="script.video.F4mProxy" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+<summary lang="tr">[B][COLOR aqua]Hepsi Birarada Bir IPTV Eklentisi - Kodentv[/COLOR][/B]</summary>
+        <description lang="tr">[B][COLOR yellow]Koden [/COLOR][COLOR silver]iPTV TR[/COLOR][/B] Tamamen Ucretsiz ve Guncel iptv Eklentisi. Lutfen bize destek olmak icin takip edin. [B][COLOR aqua]Telegram Grubumuz: [/COLOR][COLOR pink]@kodentv[/COLOR][/B]. Soru ve Sorularinizda telegram grubumuzdan ulasabilirsiniz. Bu eklenti sadece sadece Yayinci Depolarinda barindirilmaktadir. Herhangi bir baglantisi yoktur. Bu eklentinin izinsiz kopyalanmasi ve cogaltilmasi yasaktir.</description>
+        <disclaimer lang="tr">[COLOR red]Bu eklentinin kullanimindan yazar sorumlu degildir. Bu eklentiyi kullanan icerikten yazar sorumlu degildir. Yazar bu eklenti icinde bulunan herhangi bir icerigi barindirmiyor veya sahip degil. [CR] Yazar hicbir sekilde Kodi, Takim Kodi veya XBMC Vakfi'na bagli degildir. [CR] Bu, yalnizca egitim amacli olarak organize edilen kar amaci gutmeyen bir kaynaktir. telif hakki korumali eserlerin lisanssiz kullanimina izin vererek, ifade özgurlugunu tesvik eden Telif Hakki Yasasi, özellikle bölum 107'nin Adil Kullanim doktrini kapsaminda korunan amaclar.[/COLOR]</disclaimer>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    <assets>
+        <icon>icon.gif</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    </extension>
+</addon>

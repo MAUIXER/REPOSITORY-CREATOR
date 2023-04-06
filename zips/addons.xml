@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.kodeniptv" name="[B][COLOR yellow]Koden [/COLOR][COLOR silver]iPTV TR[/COLOR][/B]" version="5.2020.2" provider-name="kodentv">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <import addon="script.module.dateutil" />
+        <import addon="script.module.feedparser" />
+        <import addon="plugin.video.youtube" />
+        <import addon="script.module.resolveurl" />
+        <import addon="plugin.video.f4mTester" />
+        <import addon="script.video.F4mProxy" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+<summary lang="tr">[B][COLOR aqua]Hepsi Birarada Bir IPTV Eklentisi - Kodentv[/COLOR][/B]</summary>
+        <description lang="tr">[B][COLOR yellow]Koden [/COLOR][COLOR silver]iPTV TR[/COLOR][/B] Tamamen Ucretsiz ve Guncel iptv Eklentisi. Lutfen bize destek olmak icin takip edin. [B][COLOR aqua]Telegram Grubumuz: [/COLOR][COLOR pink]@kodentv[/COLOR][/B]. Soru ve Sorularinizda telegram grubumuzdan ulasabilirsiniz. Bu eklenti sadece sadece Yayinci Depolarinda barindirilmaktadir. Herhangi bir baglantisi yoktur. Bu eklentinin izinsiz kopyalanmasi ve cogaltilmasi yasaktir.</description>
+        <disclaimer lang="tr">[COLOR red]Bu eklentinin kullanimindan yazar sorumlu degildir. Bu eklentiyi kullanan icerikten yazar sorumlu degildir. Yazar bu eklenti icinde bulunan herhangi bir icerigi barindirmiyor veya sahip degil. [CR] Yazar hicbir sekilde Kodi, Takim Kodi veya XBMC Vakfi'na bagli degildir. [CR] Bu, yalnizca egitim amacli olarak organize edilen kar amaci gutmeyen bir kaynaktir. telif hakki korumali eserlerin lisanssiz kullanimina izin vererek, ifade özgurlugunu tesvik eden Telif Hakki Yasasi, özellikle bölum 107'nin Adil Kullanim doktrini kapsaminda korunan amaclar.[/COLOR]</disclaimer>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    <assets>
+        <icon>icon.gif</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.kodentvwizard" name="[COLOR blue]Koden TV[/COLOR] [COLOR white]Sihirbazı[/COLOR]" version="5.2020.2" provider-name="ubden">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR lime]Kodi Koden TV Builds[/COLOR] - [COLOR white] - by ubden!![/COLOR]</summary>
+    <description lang="en">[B]Tum Zamanlarin En İyi Kodi Yapisi [/B] - Amazon Firestick / Fire TV / Fire Cube, Android, Nvidia Shield TV, Windows / Mac / Linux Computers, Xbox One, iPhone, iPad.[CR][COLOR blue] Telegram : [CR][COLOR aqua]@ubden[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.kodentv" name="Koden TV Builds Repository" version="1.0.6" provider-name="ubden">
+	<extension point="xbmc.addon.repository" name="Koden Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/ubden/kodentv/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/ubden/kodentv/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/ubden/kodentv/master/zips/</datadir>
+        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Koden TV Builds Repository</summary>
+		<description>Official Repository Of The Koden TV Builds Team - by ubden</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
+</addon>
+</addons>
